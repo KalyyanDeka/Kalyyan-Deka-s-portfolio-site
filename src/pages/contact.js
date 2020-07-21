@@ -5,6 +5,8 @@ import Toolbar from "../components/Toolbar/Toolbar"
 import SideDrawer from "../components/SideDrawer/SideDrawer"
 import Backdrop from "../UI/Backdrop"
 
+import Head from "../components/head"
+
 const Contact = () => {
   const [sideDrawerOpen, onSideDrawerOpen] = useState(false)
 
@@ -27,6 +29,7 @@ const Contact = () => {
       <SideDrawer show={sideDrawerOpen} />
       {backdrop}
       <main style={{ marginTop: "56px" }}>
+        <Head />
         <div className="contact">
           <h1 className="contact__heading">CONTACT ME</h1>
           <h3 className="contact__heading--sub">Reach me through . . .</h3>
