@@ -15,7 +15,9 @@ const aboutme = () => {
 
         <p className="about__paragraph--2">
           I love being able to think of a creative idea and making it come to
-          life by programming it on the screen.
+          life by programming it on the screen. My goal is to use my skills to
+          develop functional and appealing web-based applications with a focus
+          on great user experience, speed and efficiency.
         </p>
         <p className="about__paragraph--3">
           Since technology is changing at a rapid rate, I have been keeping
