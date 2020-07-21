@@ -14,10 +14,8 @@ const aboutme = () => {
         </p>
 
         <p className="about__paragraph--2">
-          Seeking more knowledge in tech industry and my curiosity for new
-          subjects and problem represent my passion. I love being able to think
-          of a creative idea and making it come to life by programming it on the
-          screen.
+          I love being able to think of a creative idea and making it come to
+          life by programming it on the screen.
         </p>
         <p className="about__paragraph--3">
           Since technology is changing at a rapid rate, I have been keeping
