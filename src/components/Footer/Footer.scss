@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+.footer {
+  background-color: rgba(0, 0, 0, 1);
+  height: 30vh;
+  text-align: center;
+  padding: 20px;
+
+  &__heading {
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #8f90a5;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+
+    @media (max-width: 769px) {
+      letter-spacing: 0;
+      font-size: 18px;
+    }
+
+    &--strong {
+      cursor: pointer;
+      color: rgba(255, 102, 0, 0.8);
+      transition: all 0.2s;
+      text-decoration: none;
+
+      &:hover {
+        color: #ff6600;
+      }
+    }
+  }
+
+  &__copyright {
+    font-size: 18px;
+    margin-top: 70px;
+    color: #8f90a5;
+    font-family: "Lato", sans-serif;
+
+    @media (max-width: 769px) {
+      font-size: 15px;
+    }
+  }
+}

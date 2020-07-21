@@ -1,0 +1,35 @@
+.about {
+  margin-top: 50px;
+  padding: 50px;
+  height: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(37, 48, 76, 0.8),
+      rgba(37, 48, 76, 0.8)
+    ),
+    url(../../images/aboutme.jpg);
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+
+  &__heading {
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #ffffff;
+    font-size: 65px;
+    margin-bottom: 30px;
+  }
+
+  &__paragraph {
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto Mono", monospace;
+
+    &--1 {
+      margin-bottom: 25px;
+    }
+
+    &--2 {
+      margin-bottom: 25px;
+    }
+  }
+}

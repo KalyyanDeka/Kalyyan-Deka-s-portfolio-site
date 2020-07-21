@@ -1,0 +1,51 @@
+.contact {
+  background: #c3c5fb;
+  height: 100vh;
+  padding: 30px;
+  text-align: center;
+
+  &__heading {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 60px;
+    display: inline-block;
+    border-bottom: 2px solid black;
+
+    @media (max-width: 769px) {
+      font-size: 48px;
+    }
+
+    &--sub {
+      margin-left: 180px;
+      margin-top: 40px;
+      text-align: left;
+      font-size: 30px;
+
+      @media (max-width: 769px) {
+        margin-left: 0;
+        font-size: 25px;
+      }
+    }
+  }
+
+  &__details {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 18px;
+
+    margin-top: 60px;
+
+    &--detail {
+      padding: 30px;
+      border: 3px solid black;
+
+      @media (max-width: 769px) {
+        margin-bottom: 30px;
+      }
+    }
+
+    @media (max-width: 769px) {
+      flex-direction: column;
+    }
+  }
+}
