@@ -11,7 +11,11 @@ const toolbar = props => (
       <div className="toolbar__navigation--items">
         <ul>
           <li>
-            <Link className="toolbar__navigation--items--links" to="/">
+            <Link
+              className="toolbar__navigation--items--links"
+              to="/"
+              activeClassName="active-link"
+            >
               <span>
                 <strong>01: </strong>
               </span>
@@ -19,23 +23,23 @@ const toolbar = props => (
             </Link>
           </li>
           <li>
-            <Link className="toolbar__navigation--items--links" to="/projects">
+            <Link
+              className="toolbar__navigation--items--links"
+              to="/projects"
+              activeClassName="active-link"
+            >
               <span>
                 <strong>02: </strong>
               </span>
               Works
             </Link>
           </li>
-          {/* <li>
-            <Link className="toolbar__navigation--items--links" to="#about">
-              <span>
-                <strong>03: </strong>
-              </span>
-              About
-            </Link>
-          </li> */}
           <li>
-            <Link className="toolbar__navigation--items--links" to="/contact">
+            <Link
+              className="toolbar__navigation--items--links"
+              to="/contact"
+              activeClassName="active-link"
+            >
               <span>
                 <strong>03: </strong>
               </span>

@@ -13,7 +13,11 @@ const sideDrawer = props => {
     <nav className={drawerClasses}>
       <ul>
         <li>
-          <Link className="side-drawer__links" to="/">
+          <Link
+            className="side-drawer__links"
+            to="/"
+            activeClassName="active-link"
+          >
             <span>
               <strong>01: </strong>
             </span>
@@ -21,23 +25,23 @@ const sideDrawer = props => {
           </Link>
         </li>
         <li>
-          <Link className="side-drawer__links" to="/projects">
+          <Link
+            className="side-drawer__links"
+            to="/projects"
+            activeClassName="active-link"
+          >
             <span>
               <strong>02: </strong>
             </span>
             Works
           </Link>
         </li>
-        {/* <li>
-          <Link className="side-drawer__links" to="#about">
-            <span>
-              <strong>03: </strong>
-            </span>
-            About
-          </Link>
-        </li> */}
         <li>
-          <Link className="side-drawer__links" to="/">
+          <Link
+            className="side-drawer__links"
+            to="/contact"
+            activeClassName="active-link"
+          >
             <span>
               <strong>03: </strong>
             </span>

@@ -39,11 +39,21 @@ const Contact = () => {
             </div>
             <div className="contact__details--detail">
               <strong>GITHUB :</strong>{" "}
-              <a href="https://github.com/kalyyandeka">Kalyyan Deka</a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/kalyyandeka"
+              >
+                Kalyyan Deka
+              </a>
             </div>
             <div className="contact__details--detail">
               <strong>LinkedIn :</strong>{" "}
-              <a href="https://www.linkedin.com/in/kalyyan-deka-17774a1a0/">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/kalyyan-deka-17774a1a0/"
+              >
                 Kalyyan Deka
               </a>
             </div>
