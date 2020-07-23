@@ -27,7 +27,7 @@ const Projects = () => {
     {
       href: "https://burger-builder-bykalyyan.netlify.app/",
       class: "project__picture project__picture--1",
-      stack: "REACT : SASS : FIREBASE",
+      stack: "REACT : REDUX : FIREBASE",
       name: "Burger Builder",
       details:
         "A burger application where a user can dynamically build a burger add ingredients and then in the end also purchase it.",
