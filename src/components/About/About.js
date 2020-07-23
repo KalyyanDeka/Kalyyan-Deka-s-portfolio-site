@@ -7,10 +7,7 @@ const aboutme = () => {
       <h1 className="about__heading">ABOUT ME</h1>
       <div className="about__paragraph">
         <p className="about__paragraph--1">
-          Hi, my name is Kalyyan, a Full-Stack developer
-          specialized in Javascript with great experience in using technologies
-          such as React, Node.js, Express, Sass, Redux, GraphQL, GatsbyJS,
-          Next.js, MongoDB, postgreSQL and more.
+          I'm a Full-Stack developer specialized in Javascript with great experience in using technologies such as React, Node.js, Express, Sass, Redux, GraphQL, GatsbyJS, Next.js, MongoDB, postgreSQL and more.
         </p>
 
         <p className="about__paragraph--2">
