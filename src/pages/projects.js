@@ -5,22 +5,6 @@ import Layout from "../components/Layout"
 import Head from "../components/head"
 
 const Projects = () => {
-  const [sideDrawerOpen, onSideDrawerOpen] = useState(false)
-
-  const drawerToggleClickHandler = () => {
-    onSideDrawerOpen(!sideDrawerOpen)
-  }
-
-  const backDropClickedHandler = () => {
-    onSideDrawerOpen(false)
-  }
-
-  let backdrop
-
-  if (sideDrawerOpen) {
-    backdrop = <Backdrop click={backDropClickedHandler} />
-  }
-
   const project = [
     {
       href: "https://burger-builder-bykalyyan.netlify.app/",

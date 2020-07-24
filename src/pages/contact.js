@@ -3,28 +3,10 @@ import "./contact.scss"
 
 import Layout from "../components/Layout"
 
-import Toolbar from "../components/Toolbar/Toolbar"
-import SideDrawer from "../components/SideDrawer/SideDrawer"
-import Backdrop from "../UI/Backdrop"
+
 
 import Head from "../components/head"
 
-const Contact = () => {
-  const [sideDrawerOpen, onSideDrawerOpen] = useState(false)
-
-  const drawerToggleClickHandler = () => {
-    onSideDrawerOpen(!sideDrawerOpen)
-  }
-
-  const backDropClickedHandler = () => {
-    onSideDrawerOpen(false)
-  }
-
-  let backdrop
-
-  if (sideDrawerOpen) {
-    backdrop = <Backdrop click={backDropClickedHandler} />
-  }
   return (
     <Layout>
       <Head />
