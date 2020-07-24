@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import "./contact.scss"
 
+import Layout from "../components/Layout"
+
 import Toolbar from "../components/Toolbar/Toolbar"
 import SideDrawer from "../components/SideDrawer/SideDrawer"
 import Backdrop from "../UI/Backdrop"
@@ -24,46 +26,41 @@ const Contact = () => {
     backdrop = <Backdrop click={backDropClickedHandler} />
   }
   return (
-    <div style={{ height: "100%" }}>
-      <Toolbar drawerClickHandler={drawerToggleClickHandler} />
-      <SideDrawer show={sideDrawerOpen} />
-      {backdrop}
-      <main style={{ marginTop: "56px" }}>
-        <Head />
-        <div className="contact">
-          <h1 className="contact__heading">CONTACT ME</h1>
-          <h3 className="contact__heading--sub">Reach me through . . .</h3>
-          <div className="contact__details">
-            <div className="contact__details--detail">
-              <strong>EMAIL :</strong> kalyyan.2612@gmail.com
-            </div>
-            <div className="contact__details--detail">
-              <strong>PHONE :</strong> 918723057896
-            </div>
-            <div className="contact__details--detail">
-              <strong>GITHUB :</strong>{" "}
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/kalyyandeka"
-              >
-                Kalyyan Deka
-              </a>
-            </div>
-            <div className="contact__details--detail">
-              <strong>LinkedIn :</strong>{" "}
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/kalyyan-deka-17774a1a0/"
-              >
-                Kalyyan Deka
-              </a>
-            </div>
+    <Layout>
+      <Head />
+      <div className="contact">
+        <h1 className="contact__heading">CONTACT ME</h1>
+        <h3 className="contact__heading--sub">Reach me through . . .</h3>
+        <div className="contact__details">
+          <div className="contact__details--detail">
+            <strong>EMAIL :</strong> kalyyan.2612@gmail.com
+          </div>
+          <div className="contact__details--detail">
+            <strong>PHONE :</strong> 918723057896
+          </div>
+          <div className="contact__details--detail">
+            <strong>GITHUB :</strong>{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/kalyyandeka"
+            >
+              Kalyyan Deka
+            </a>
+          </div>
+          <div className="contact__details--detail">
+            <strong>LinkedIn :</strong>{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/kalyyan-deka-17774a1a0/"
+            >
+              Kalyyan Deka
+            </a>
           </div>
         </div>
-      </main>
-    </div>
+      </div>
+    </Layout>
   )
 }
 
