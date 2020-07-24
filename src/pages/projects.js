@@ -1,8 +1,6 @@
 import React, { useState } from "react"
 
-import Toolbar from "../components/Toolbar/Toolbar"
-import SideDrawer from "../components/SideDrawer/SideDrawer"
-import Backdrop from "../UI/Backdrop"
+import Layout from "../components/Layout"
 
 import Head from "../components/head"
 
@@ -83,18 +81,13 @@ const Projects = () => {
   })
 
   return (
-    <div style={{ height: "100%" }}>
-      <Toolbar drawerClickHandler={drawerToggleClickHandler} />
-      <SideDrawer show={sideDrawerOpen} />
-      {backdrop}
-      <main style={{ marginTop: "56px" }}>
-        <Head />
-        <div className="works">
-          <h1 className="works--heading">ALL PROJECTS!</h1>
-          <div className="works--cards">{cards}</div>
-        </div>
-      </main>
-    </div>
+    <Layout>
+      <Head />
+      <div className="works">
+        <h1 className="works--heading">ALL PROJECTS!</h1>
+        <div className="works--cards">{cards}</div>
+      </div>
+    </Layout>
   )
 }
 
