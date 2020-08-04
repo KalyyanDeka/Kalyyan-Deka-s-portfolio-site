@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import "./contact.scss"
 
 import Layout from "../components/Layout"
@@ -7,6 +7,7 @@ import Layout from "../components/Layout"
 
 import Head from "../components/head"
 
+const Contact = () => {
   return (
     <Layout>
       <Head />
