@@ -11,15 +11,15 @@ const works = () => {
       stack: "REACT : REDUX : FIREBASE",
       name: "Burger Builder",
       details:
-        "A burger application where a user can dynamically build a burger add ingredients and then in the end also purchase it.",
+        "A burger application build with react where a user can dynamically build a burger, add ingredients to it and then in the end also purchase it.",
     },
     {
-      href: "https://smartbrain-kalyyan.netlify.app/",
+      href: "https://documenter.getpostman.com/view/11332625/T1LMhmoy?version=latest",
       class: "project__picture project__picture--2",
-      stack: "REACT : NODE : POSTGRESQL : HEROKU",
-      name: "Smart Brain",
+      stack: "NODE : EXPRESS : MONGODB : MONGOOSE",
+      name: "DevCamper API",
       details:
-        "It is a webapp where you can submit image URLs and it will detect where the faces are in the given photo.",
+        "Backend API for a bootcamp directory application to manage bootcamps, courses, reviews, users and authentication. You can view the docs I Have published from postman.",
     },
   ]
 

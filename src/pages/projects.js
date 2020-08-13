@@ -12,32 +12,32 @@ const Projects = () => {
       stack: "REACT : REDUX : FIREBASE",
       name: "Burger Builder",
       details:
-        "A burger application where a user can dynamically build a burger add ingredients and then in the end also purchase it.",
+        "A burger application build with react where a user can dynamically build a burger, add ingredients to it and then in the end also purchase it.",
+    },
+    {
+      href: "https://documenter.getpostman.com/view/11332625/T1LMhmoy?version=latest",
+      class: "project__picture project__picture--2",
+      stack: "NODE : EXPRESS : MONGODB : MONGOOSE",
+      name: "DevCamper API",
+      details:
+        "Backend API for a bootcamp directory application to manage bootcamps, courses, reviews, users and authentication. You can view the docs I have published from postman.",
     },
     {
       href: "https://smartbrain-kalyyan.netlify.app/",
-      class: "project__picture project__picture--2",
+      class: "project__picture project__picture--3",
       stack: "REACT : NODE : POSTGRESQL : HEROKU",
       name: "Smart Brain",
       details:
-        "It is a webapp where you can submit image URLs and it will detect where the faces are in the given photo.",
+        "It is a webapp where you can submit image URLs and it will detect where the faces are in the given photo. It uses an API provided clarifai to detect faces.",
     },
     {
       href: "https://natours-by-kalyyan.netlify.app/",
-      class: "project__picture project__picture--3",
+      class: "project__picture project__picture--4",
       stack: "HTML : SASS",
       name: "Natours",
       details:
-        "A landing page for a frictional travel company, designed with newest css properties, animations and advanced responsive design.",
-    },
-    {
-      href: "/",
-      class: "project__picture project__picture--4",
-      stack: "GATSBY : SASS",
-      name: "My Portfolio",
-      details:
-        "The website you are on right now! It is created from scratch using GatsbyJS which is a React-based static site generator.",
-    },
+        "A huge landing page for a frictional travel company, designed with all the newest css properties, animations, image optimization and advanced responsive design.",
+    }
   ]
 
   const cards = project.map(p => {

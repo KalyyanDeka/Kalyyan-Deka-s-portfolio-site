@@ -4,8 +4,8 @@
   height: auto;
   background-image: linear-gradient(
       to right,
-      rgba(37, 48, 76, 0.8),
-      rgba(37, 48, 76, 0.8)
+      rgba(3, 27, 78, 0.8),
+      rgba(3, 27, 78, 0.8)
     ),
     url(../../images/aboutme.jpg);
   background-size: cover;
@@ -23,6 +23,10 @@
     color: white;
     font-size: 18px;
     font-family: "Roboto Mono", monospace;
+
+    @media (max-width: 769px) {
+    font-size: 18px;
+  }
 
     &--1 {
       margin-bottom: 25px;

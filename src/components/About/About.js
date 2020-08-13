@@ -9,7 +9,7 @@ const aboutme = () => {
         <p className="about__paragraph--1">
           I'm a Full-Stack developer specialized in Javascript with great
           experience in using technologies such as React, Node.js, Express,
-          Sass, Redux, GraphQL, GatsbyJS, Next.js, MongoDB, postgreSQL and more.
+          Sass, Redux, GatsbyJS, Next.js, MongoDB, postgreSQL and more.
         </p>
 
         <p className="about__paragraph--2">

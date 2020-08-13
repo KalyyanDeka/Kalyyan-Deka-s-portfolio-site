@@ -18,9 +18,6 @@ const sideDrawer = props => {
             to="/"
             activeClassName="active-link"
           >
-            <span>
-              <strong>01: </strong>
-            </span>
             Home
           </Link>
         </li>
@@ -30,10 +27,7 @@ const sideDrawer = props => {
             to="/projects"
             activeClassName="active-link"
           >
-            <span>
-              <strong>02: </strong>
-            </span>
-            Works
+            Portfolio
           </Link>
         </li>
         <li>
@@ -42,9 +36,6 @@ const sideDrawer = props => {
             to="/contact"
             activeClassName="active-link"
           >
-            <span>
-              <strong>03: </strong>
-            </span>
             Contact
           </Link>
         </li>

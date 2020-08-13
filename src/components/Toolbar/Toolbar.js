@@ -31,7 +31,7 @@ const toolbar = props => (
               <span>
                 <strong>02: </strong>
               </span>
-              Works
+              Portfolio
             </Link>
           </li>
           <li>
