@@ -20,7 +20,7 @@ const Projects = () => {
       stack: "NODE : EXPRESS : MONGODB : MONGOOSE",
       name: "DevCamper API",
       details:
-        "Backend API for a bootcamp directory application to manage bootcamps, courses, reviews, users and authentication. You can view the docs I have published from postman.",
+        "Backend API for a bootcamp directory application to manage bootcamps, courses, reviews, users and authentication. You can view the docs I Have published from postman.",
     },
     {
       href: "https://smartbrain-kalyyan.netlify.app/",
