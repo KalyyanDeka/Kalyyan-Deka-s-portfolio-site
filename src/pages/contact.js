@@ -36,7 +36,7 @@ const Contact = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/kalyyan-deka-17774a1a0/"
+              href="https://www.linkedin.com/in/kalyyan-deka-32a3001b2/"
             >
               Kalyyan Deka
             </a>
