@@ -40,12 +40,18 @@
 .heading-primary-start {
   color: #ff6600;
   font-size: 20px;
+
+ 
 }
 
 .heading-primary-main {
   display: block;
   font-family: "Cormorant Garamond", serif;
   font-size: 100px;
+
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
 
   @media (max-width: 769px) {
     font-size: 60px;
@@ -61,6 +67,8 @@
   font-size: 30px;
   color: rgb(143, 144, 165);
 
+  animation: moveInRight 1s ease-out;
+
   @media (max-width: 769px) {
     font-size: 15px;
   }
@@ -70,6 +78,8 @@
   position: absolute;
   top: 65%;
   left: 40%;
+
+  animation: moveInBottom 1s ease-out;
 
   @media (max-width: 769px) {
     left: 15%;
@@ -103,4 +113,60 @@
   font-family: "Roboto Mono", monospace;
   letter-spacing: 2px;
   color: #ffffff;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translate(0);
+  }
 }
