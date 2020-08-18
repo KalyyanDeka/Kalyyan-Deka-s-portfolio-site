@@ -17,13 +17,11 @@ const App = () => {
 
   return (
     <Layout>
-      
         <Head />
         <Header />
         <Works />
         <About />
         <Footer />
-      
     </Layout>
   )
 }
