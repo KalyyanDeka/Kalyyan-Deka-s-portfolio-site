@@ -41,7 +41,6 @@
   color: #ff6600;
   font-size: 20px;
 
-  animation: moveInTop 2s ease-out;
 }
 
 .heading-primary-main {
@@ -49,9 +48,6 @@
   font-family: "Cormorant Garamond", serif;
   font-size: 100px;
 
-  animation-name: moveInLeft;
-  animation-duration: 1s;
-  animation-timing-function: ease-out;
 
   @media (max-width: 769px) {
     font-size: 60px;
@@ -67,7 +63,6 @@
   font-size: 30px;
   color: rgb(143, 144, 165);
 
-  animation: moveInRight 1s ease-out;
 
   @media (max-width: 769px) {
     font-size: 15px;
@@ -79,7 +74,6 @@
   top: 65%;
   left: 40%;
 
-  animation: moveInBottom 1s ease-out;
 
   @media (max-width: 769px) {
     left: 15%;
