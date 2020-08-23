@@ -9,8 +9,9 @@
   max-height: 200px;
   z-index: 200;
 
-  transform: translateY(-100%);
-  transition: transform 0.3s;
+overflow-y: hidden;
+  height: 0;
+  transition: height 0.2s;
 
   ul {
     height: 100%;
@@ -43,7 +44,7 @@
 }
 
 .side-drawer.open {
-  transform: translateY(0);
+  height: 130px;
 }
 
 .active-link {
