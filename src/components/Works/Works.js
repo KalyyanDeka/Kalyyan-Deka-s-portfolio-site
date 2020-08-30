@@ -9,7 +9,7 @@ const works = () => {
       href: "https://burger-builder-bykalyyan.netlify.app/",
       class: "project__picture project__picture--1",
       stack: "REACT : REDUX : FIREBASE",
-      name: "Burger Builder",
+      name: "Burger App",
       details:
         "A burger application build with react where a user can dynamically build a burger, add ingredients to it and then in the end also purchase it.",
     },
