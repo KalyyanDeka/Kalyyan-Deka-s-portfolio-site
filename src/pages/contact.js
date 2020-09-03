@@ -28,7 +28,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               href="https://github.com/kalyyandeka"
             >
-              Kalyyan Deka
+              KalyyanDeka
             </a>
           </div>
           <div className="contact__details--detail">
